@@ -56,4 +56,5 @@ After installing all packeges, make sure it's in the **"node_modules"** folder, 
 
 <br/>
 ![](https://media.giphy.com/media/1KoN1DMBnCMWk/giphy.gif)
+<br/>
 ###### That's all Folks, enjoy! :+1:
