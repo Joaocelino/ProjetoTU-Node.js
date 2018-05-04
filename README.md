@@ -47,9 +47,12 @@ npm install pm2 -g
 > The PM2 package will keep the server on after closing the console(only at AWS Ec2), check the documentation at the official site: <http://pm2.keymetrics.io/>
 
 <br/>
+
 ##### :red_circle: Atention:
 You can install all modules inside the project folder, through the **CMD** select the folder and type ```--save``` after each npm command line(exemple: ```npm i popper --save```).
 After installing all packeges, make sure it's in the **"node_modules"** folder, then let's go to the next step.
+
 <br/>
 <br/>
+
 ###### That's all Folks, enjoy! :+1:
