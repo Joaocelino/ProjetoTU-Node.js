@@ -51,10 +51,5 @@ npm install pm2 -g
 You can install all modules inside the project folder, through the **CMD** select the folder and type ```--save``` after each npm command line(exemple: ```npm i popper --save```).
 After installing all packeges, make sure it's in the **"node_modules"** folder, then let's go to the next step.
 <br/>
-
-<br/>
-
-<br/>
-![](https://media.giphy.com/media/1KoN1DMBnCMWk/giphy.gif)
 <br/>
 ###### That's all Folks, enjoy! :+1:
