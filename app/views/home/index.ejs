@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Tu App</title>
+    <!-- Required metatags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="witdh-=devide-witdh, initial-scale=1, shrink-to-fit=no"/>
+
+	<link rel="icon" href="icon.ico" type="icon/x-icon" />
+<link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="bootstrap.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-success NavColor">
+		
+		<img width="32px" height="32px" src="icon/recycle-bin.png"/>
+        <a class="navbar-brand h1 mb-0" href="#">TU</a>
+
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#home">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                            </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Tiwtter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <form class="form-inline" action="">
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark mt-2" type="submit" id="btnBuscar">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="3"></li>
+        </ol>
+        <div carousel-inner>
+
+            <div class="carousel-item active">
+                <img src="img/bannerSlide-1-2.jpg" class="image-fuid d-block" alt="" width="100%">
+
+                <div class="carousel-caption  d-none d-md-block">
+                    <h3>Você Sabia?</h3>
+                    <p class="lead"> Atitudes simples podem melhorar sua qualidade de vida e de sua familia! Seja conciente, não jogue óleo de cozinha em qualquer lugar, você pode estar até perdendo dinheiro com isso!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/bannerSlide-3-2.jpg" class="image-fuid d-block" alt="" width="100%">
+
+                <div class="carousel-caption  d-none d-md-block">
+                    <h3>Combustível Conciente</h3>
+                    <p class="lead">95% do óleo utilizado na cozinha pode virar combustível, contribuindo pro meio ambiente e para seu bolso!</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/bannerSlide-4-2.jpg" class="image-fluid d-block" alt="" width="100%">
+
+                <div class="carousel-caption  d-none d-md-block">
+                    <h3>Óleo Vegetal</h3>
+                    <p class="lead">Ganhando mais funções, óleo vegetal sai da cozinha para movimentar automóveis!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row col-12">
+
+            <div class="col-12 text-center mt-5">
+                <h1 class="display-3 mb-5" id="titulo-boas-vindas"><i class="d-none d-md-inline fas fa-recycle text-success mr-3"></i>Mãos à coleta!</h1>
+                <p class="lead">Auxiliar e otimizar a coleta de óleo na cidade de Santos através de uma aplicação híbrida, onde por meio da mesma será possível que o Usuário Solicitante e o Usuário Coletor possam interagir e se organizarem de acordo com sua localização e assim gerar a ordem de serviço, proporcionando uma rota mais prática e econômica para concretizar a coleta.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="row mb-5">
+
+            <div class="col-sm-6 col-md-4 mb-3">
+
+                <nav id="navbarVertical" class="navbar d-none d-sm-block">
+
+                    <nav class="nav nav-pills flex-column">
+
+                        <a class="nav-link aplicativo" href="#item1">Aplicativo</a>
+
+                        <a class="nav-link como-funciona" href="#item2">Como Funciona</a>
+
+                        <a class="nav-link empresa" href="#item3">Modo Empresa</a>
+
+                        <nav class="nav-link nav-pills flex-column">
+
+                            <a class="nav-link home" href="#item3-1">Home</a>
+                            <a class="nav-link agenda" href="#item3-2">Agenda</a>
+                            <a class="nav-link notificacao" href="#item3-3">Notificação</a>
+                            <a class="nav-link agendamentos" href="#item3-4">Agendamentos</a>
+                            <a class="nav-link mensagens" href="#item3-5">Mensagens</a>
+                            <a class="nav-link horario" href="#item3-6">Horario</a>
+
+                        </nav>
+
+                        <a class="nav-link cliente" href="#item4">Modo Cliente</a>
+
+                        <nav class="nav-link nav-pills flex-column">
+
+                            <a class="nav-link home-solicitante" href="#item4-1">Home Solicitante</a>
+                            <a class="nav-link horario-solicitante" href="#item4-2">Horario Solicitante</a>
+                            <a class="nav-link solicitacoes" href="#item4-3">Solicitações</a>
+
+                        </nav>
+
+                    </nav>
+
+                </nav>
+
+            </div>
+
+            <div class="col-sm-6 col-md-8 mt-2">
+
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                    <h4 id="item1" class="mt-4">O Aplicativo</h4>
+                    <p class="mt-3 mb-5">Tu app, é um aplicativo que facilita e concientiza a coleta de óleo vegetal para a reutilização!</p>
+
+                    <h4 id="item2" class="mt-4">Como Funciona</h4>
+                    <p class="mt-3 mb-5">O aplicativo funcionará de forma que os estabelecimentos forneçam informações para o sistema e criem seu cadastro e então possam fazer do uso do mesmo onde irão fornecer informações como: Localização, quantidade do material e horários disponíveis para recolha do mesmo.</p>
+
+                    <h4 id="item3" class="mt-3">Empresa</h4>
+                    <p class="mt-3 mb-5">Trata do solicitado pelo usuário, empresa que faz a coleta do óleo.
+                    </p>
+
+                    <h5 id="item3-1" class="mt-3 mb-5">Home Prestador de Serviços</h5>
+                    <div class="media mt-3 mb-2">
+                        <img src="img/home-PrestadorDeServicos.png" alt="" class="col-3 mb-5">
+
+                        <p>Nessa tela será mostrada um mapa, disponibilizado pela API do Google Maps onde será mostrado para todos os Prestadores de serviços onde possuem solicitações de coleta. Ao clicar em uma solicitação, na parte inferior irá mostrar alguns detalhes da empresa e um informativo de qual material foi solicitado a coleta, para assim se o aplicativo passar a aceitar outros materiais não precise ocorrer uma mudança drástica na estrutura</p>
+                    </div>
+
+                    <h5 id="item3-2" class="mt-3 mb-5">Definição do horario de coleta</h5>
+                    <div class="media">
+                        <img src="img/DefinicaoDoHorarioDeColetaPrestador.png" alt="" class="col-3 mb-5">
+
+                        <p>Após o Prestador escolher a coleta que deseja fazer, basta ele clicar no botão “Agendar Retirada” que será disponibilizado o horário que ele poderá coletar, esse horário mostrado para o prestador será definido pelo Solicitante, porque assim fica mais fácil a recepção.</p>
+                    </div>
+
+                    <h5 id="item3-3" class="mt-3 mb-5">Notificação de Agendamento Prestador</h5>
+                    <div class="media">
+                        <img src="img/NotificacaoDeAgendamentoPrestador.png" alt="" class="col-3 mb-5">
+
+                        <p>Após a escolha do horário mais adequado para a efetivação da coleta, o aplicativo irá informar que existe um novo agendamento marcado.</p>
+                    </div>
+
+                    <h5 id="item3-4" class="mt-3 mb-5">Tela de Agendamentos Prestador</h5>
+                    <div class="media">
+                        <img src="img/TelaDeAgendamentosPrestador.png" alt="" class="col-3 mb-5">
+
+                        <p>A tela de agendamentos consistem em todos as coletas que o Prestador já fez ou irá fazer, todas ordenadas e muito bem sinalizadas para não atrapalhar seu dia.</p>
+                    </div>
+
+                    <h5 id="item3-5" class="mt-3 mb-5">Tela de Mensagens</h5>
+                    <div class="media mb-2">
+                        <img src="img/TelaDeMensagem.png" alt="" class="col-3 mb-5">
+
+                        <p>Essa tela consiste em um CHAT onde tanto o Prestador quanto o Solicitante poderão começar para assim terem uma fácil comunicação. Existem algumas regras para a utilização do CHAT, ele só pode ser iniciado quando o status do Agendamento esteja como “Aguardando coleta”, fora esse status não será possível iniciar ou continuar uma conversa antiga.</p>
+                    </div>
+
+                    <h5 id="item3-6" class="mt-3 mb-5">Definição do horario de coleta</h5>
+                    <div class="media mb-2">
+                        <img src="img/DefinicaoDoHorarioDeColetaPrestador.png" alt="" class="col-3 mb-5">
+
+                        <p>Essa tela consiste em um CHAT onde tanto o Prestador quanto o Solicitante poderão começar para assim terem uma fácil comunicação. Existem algumas regras para a utilização do CHAT, ele só pode ser iniciado quando o status do Agendamento esteja como “Aguardando coleta”, fora esse status não será possível iniciar ou continuar uma conversa antiga.</p>
+                    </div>
+
+                    <h4 id="item4">Usuário</h4>
+                    <p class="mt-3 mb-5">Quem faz o pedido da coleta ou verifica a localização de um posto responsável pela coleta.
+                    </p>
+
+
+                    <h5 id="item4-1" class="mt-3 mb-5">Home Solicitante</h5>
+                    <div class="media mb-2">
+                        <img src="img/homeSolicitante.png" alt="" class="col-3 mb-5">
+
+                        <p>Essa será a HOME do aplicativo dos Solicitantes, ela consiste em 3 botões: Solicitar, Atendimentos e Mensagens.</p>
+                    </div>
+
+                    <h5 id="item4-2" class="mt-3 mb-5">Definição de horário de coleta Solicitante</h5>
+                    <div class="media mb-2">
+                        <img src="img/DefinicaoDeHorarioDeColetaSolicitante.png" alt="" class="col-3 mb-5">
+
+                        <p>Quando o Solicitante clicar no botão “SOLICITAR”, o sistema irá solicitar que o usuário defina um dia e horário em que o Prestador irá efetuar a coleta, o aplicativo irá solicitar que o usuário preencha três vezes esse campo, para assim definir 3 datas/horas para que possa existir uma coerência por ambas as partes.
+                        </p>
+                    </div>
+
+                    <h5 id="item4-3" class="mt-3 mb-5">Agendamento Solicitante</h5>
+                    <div class="media mb-2">
+                        <img src="img/AgendamentoSolicitante.png" alt="" class="col-3 mb-5">
+
+                        <p>Nessa tela mostra todas as solicitações feita pelo Solicitante, com todos os status da situação da coleta. Ao clicar no agendamento o Solicitante poderá ver mais detalhes sobre o agendamento como: Detalhes referente ao prestador, horário em que foi aceito para ser entregue, detalhes da caracterização da empresa (empresa Prestadora) e etc.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 mt-5 text-center">
+                <h1 class="display-3 mb-5" id="titulo-parceiros"><i class="d-none d-md-inline far fa-handshake text-success"></i>Parceiros</h1>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-sm-center">
+
+            <div class="col-sm-6 col-md-4 mb-5">
+
+                <div class="card  mt-5">
+                    <img src="img/parceiro1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">parceiro 1</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">sub parceiro</h6>
+                        <p class="card-text">parceiro</p>
+                        <a href="#" class="card-link">saiba mais</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="col-sm-6 col-md-4 mb-5">
+
+                <div class="card  mt-5">
+                    <img src="img/parceiro2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">parceiro 2</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">sub parceiro</h6>
+                        <p class="card-text">parceiro</p>
+                        <a href="#" class="card-link">saiba mais</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6 col-md-4 mb-5">
+
+                <div class="card  mt-5">
+                    <img src="img/parceiro3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">parceiro 3</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">sub parceiro</h6>
+                        <p class="card-text">parceiro</p>
+                        <a href="#" class="card-link">saiba mais</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="jumbotron jumbotron-fuild">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <ul class="nav nav-pills justify-content-center" id="pills-nav" role="tablist">
+
+                        <li class="nav-item">
+                            <a href="#nav-item-cadastro" class="nav-link active" id="nav-cadastro" data-toggle="pill">Cadastro</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#nav-item-login" class="nav-link" id="nav-login" data-toggle="pill">Login</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="nav-pills-content">
+
+                        <div class="tab-pane fade show active" id="nav-item-cadastro" role="tabpanel">
+
+                            <div class="row text-center">
+
+                                <div class="col-12 my-3">
+
+                                    <h1 class="display-4"><i class="d-inline far fa-address-book text-success mr-3"></i>Cadastre-se</h1>
+
+                                </div>
+
+                            </div>
+
+                            <hr>
+
+                            <div class="row justify-content-center">
+
+                                <div class="col-sm-12 col-md-10 col-lg-8">
+
+                                    <form action="#">
+
+                                        <div class="form-row">
+
+                                            <div class="form-group col-sm-6">
+
+                                                <label for="inputNome">Seu Nome</label>
+                                                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+
+                                            </div>
+
+                                            <div class="form-group col-sm-6">
+
+                                                <label for="inputSobrenome">Seu Sobrenome</label>
+                                                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-row">
+
+                                            <div class="form-group col-sm-12">
+
+                                                <label for="inputEmail">Seu E-mail</label>
+                                                <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-row">
+
+                                            <div class="form-group col-sm-12">
+
+                                                <label for="inputEnd">Seu Endereço</label>
+                                                <input type="text" class="form-control" id="inputEnd" placeholder="Endereço">
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-row">
+
+                                            <div class="form-group col-sm-6">
+
+                                                <label for="inputCidade">Sua Cidade</label>
+                                                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+
+                                            </div>
+
+                                            <div class="form-group col-sm-4">
+
+                                                <label for="inputEst">Seu Estado</label>
+                                                <select name="" id="inputEst" class="form-control">
+                                                    <option value="" selected>Escolha...</option>
+                                                    <option value="">São Paulo</option>
+                                                    <option value="">Rio de Janeiro</option>
+                                                    <option value="">Piauí</option>
+                                                </select>
+
+                                            </div>
+
+                                            <div class="form-group col-sm-2">
+
+                                                <label for="inputCep">Seu CEP</label>
+                                                <input type="text" class="form-control" id="inputCep">
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-row">
+
+                                            <div class="form-group col-sm-12">
+
+                                                <div class="form-check">
+
+                                                    <label for="" class="form-check-label">
+                                                        <input type="checkbox" class="form-check-input">Desejo receber novidades sobre o aplicativo!
+                                                    </label>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="form-row">
+
+                                            <div class="col-sm-12">
+
+                                                <button class="btn btn-success" type="submit" id="btnEnviar">Enviar</button>
+
+                                                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Ajuda" data-content="Preencha o formulário com os dados requisitados caso queira participar da versão de testes do aplicativo TU">Ajuda</a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-item-login" role="tabpanel">
+
+                            <div class="row">
+
+                                <div class="col-12 text-center my-3">
+
+                                    <h1 class="display-4"><i class="far fa-address-book text-success mr-3"></i>Login</h1>
+
+                                </div>
+
+                            </div>
+                            <hr>
+
+                            <div class="row justify-content-center">
+
+                                <div class="row">
+                                    <aside class="col-sm-12">
+                                        <div class="card">
+                                            <article class="card-body">
+                                                <a href="" class="float-right btn btn-outline-primary">Sign up</a>
+                                                <h4 class="card-title mb-4 mt-1">Sign in</h4>
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label>Your email</label>
+                                                        <input name="" class="form-control" placeholder="Email" type="email">
+                                                    </div>
+                                                    <!-- form-group// -->
+                                                    <div class="form-group">
+                                                        <a class="float-right" href="#">Forgot?</a>
+                                                        <label>Your password</label>
+                                                        <input class="form-control" placeholder="******" type="password">
+                                                    </div>
+                                                    <!-- form-group// -->
+                                                    <div class="form-group">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox"> Save password </label>
+                                                        </div>
+                                                        <!-- checkbox .// -->
+                                                    </div>
+                                                    <!-- form-group// -->
+                                                    <div class="form-group">
+                                                        <button type="submit" class="btn btn-primary btn-block"> Login </button>
+                                                    </div>
+                                                    <!-- form-group// -->
+                                                </form>
+                                            </article>
+                                        </div>
+                                        <!-- card.// -->
+
+                                    </aside>
+                                    <!-- col.// -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+    <!-- Optional Javascript-->
+    <!-- JQuery fisrt, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="bootstrap.js"></script>
+
+	<script>
+            $(function() {
+
+                $('[data-toggle="popover"]').popover()
+
+            })
+        </script>
+</body>
+
+</html>

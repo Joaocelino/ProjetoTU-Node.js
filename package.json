@@ -1,0 +1,20 @@
+{
+  "name": "ProjectTU",
+  "version": "1.0.0",
+  "description": "ProjectTU",
+  "main": "app.js",
+  "author": {
+    "name": "luan.rezende"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-load": "^1.1.16",
+    "jquery": "^3.3.1",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.3",
+    "pm2": "^2.10.3",
+    "popper.js": "^1.14.3"
+  }
+}

@@ -1,0 +1,34 @@
+.NavColor{
+    background-color: #28a745;
+}
+
+#carouselSite {
+    overflow: hidden;
+}
+
+#carouselSite h3 {
+  text-shadow: 3px 2px 4px black; }
+
+.carousel-caption p {
+  text-shadow: 2px 2px 3px black; }
+
+#navbarVertical a {
+  color: green; }
+
+#navbarVertical a.active {
+  background-color: green;
+  color: white; }
+
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 450px; }
+
+#titulo-boas-vindas {
+  font-size: 5em; }
+
+@media only screen and (max-width: 414px) {
+  #titulo-boas-vindas {
+    font-size: 3.3em; } }
+
+/*# sourceMappingURL=style.css.map */
