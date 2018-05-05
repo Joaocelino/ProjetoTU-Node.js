@@ -9,6 +9,9 @@
 **EN-US:**
 </br>
 * A Web App that will assist companies and partners in collecting discarded oil.
+<br />
+
+link Amazon Ec2: <http://ec2-18-216-144-171.us-east-2.compute.amazonaws.com:3000/>
 
 <br />
 <br />
