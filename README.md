@@ -62,4 +62,10 @@ After installing all packeges, make sure it's in the **"node_modules"** folder, 
 <br/>
 <br/>
 
+## STARTING THE SERVER:
+After all the steps, let's start the server, open the **CMD** and go to the project folder, now type:```pm2 start app.js```. Wait until the confirmation message: ```server rodando na porta 3000```.
+
+<br/>
+<br/>
+
 ###### That's all Folks, enjoy! :+1:
